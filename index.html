@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moeda</title>
+</head>
+<body class="container">
+    <header class="logo">
+        <img src="assets/imgs/ArrowsDownUp.png" alt="">
+        <h1 class="logo-text text-blue-700">CONVERT</h1>
+    </header>
+
+    <main>
+        <form class="form">
+            <div class="input-group">
+                <label for="UserValue" class="span text-blue-900">Valor</label>
+                <input type="text" placeholder="0,00" id="UserValue" required>
+            </div>
+
+            <div class="input-group">
+                <label for="coin" class="span text-blue-900">Moeda</label>
+                <select id="coin">
+                    <option value="select" id="opt-disabled" disabled selected>Selecione a moeda</option>
+                    <option value="dolar">Dolar</option>
+                    <option value="euro">Euro</option>
+                    <option value="libra">Libra</option>
+                    <option value="iene">Iene</option>
+                    <option value="peso-argentino">Peso argentino</option>
+                     <option value="yuan">Yuan-Chines</option>
+                </select>
+            </div>
+
+            <button class="button-text text-blue-900" disabled>Converter em Reais</button>
+
+        </form>
+
+        <div class="UserResult hidden">
+            <div>
+                <span class="text-blue-800" id="simbolo">x</span><span class="text-blue-800"> 1,00</span>
+                <span class="text-blue-800">= R$ <span id="userCot">x</span></span>
+            </div>
+
+            <div>
+                <h2 class="text-blue-900 h1"><span id="Result">X</span> Reais</h2>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+
+
+/* =========================
+   FONTES
+========================= */
+:root {
+  --font-primary: 'Inter', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  /* =========================
+     TIPOGRAFIA
+  ========================= */
+
+  /* Heading */
+  --fs-heading: 2rem; /* 32px */
+  --lh-heading: 3rem; /* 48px */
+  --fw-heading: 700;
+
+  /* Button */
+  --button: 600 1rem/1.25rem "Inter", sans-serif;
+
+  /* Body */
+  --fs-body: 1rem; /* 16px */
+  --lh-body: 1.25rem; /* 20px */
+  --fw-body: 400;
+
+  /* Label */
+  --fs-label: 0.75rem; /* 12px */
+  --lh-label: 1rem; /* 16px */
+  --fw-label: 400;
+
+  /* Span / Mono */
+  --fs-span: 1rem; /* 16px */
+  --lh-span: 1.25rem; /* 20px */
+  --fw-span: 400;
+ 
+  --h1: 700 2rem/3rem "Inter", sans-serif;
+
+  --body-md: 400 1rem/1.25rem "Inter", sans-serif;
+
+  --label: 400 0.75rem/1rem "Inter", sans-serif;
+
+  --span: 400 1rem/1.25rem "IBM Plex Mono", monospace;
+
+  --blue-100: #080815;
+  --blue-200: #0E0F25;
+  --blue-300: #141534;
+  --blue-400: #1F2151;
+  --blue-500: #2F3279;
+
+  --blue-600: #2F34AB;
+  --blue-700: #4A5DCD;
+  --blue-800: #7D8DEC;
+  --blue-900: #B2B8DE;
+
+  --white: #F1F2F6;
+}
+
+/* Headings */
+
+.h1 {
+  font: var(--h1);
+}
+
+
+/* Textos */
+
+.button-text {
+  font: var(--button);
+}
+
+.span {
+  font: var(--span);
+}
+
+
+
+
+/* Cores */
+
+.text-blue-700 {
+  color: var(--blue-700);
+}
+
+.text-blue-800 {
+  color: var(--blue-800);
+}
+
+.text-blue-900 {
+  color: var(--blue-900);
+}
